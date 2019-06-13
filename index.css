@@ -291,10 +291,6 @@ body {
 .footer__left-blok3 a img{
     margin-right: 19px;
 }
-.footer__left-blok3 a img:hover {
-    border: 1px solid #f9f9f9;
-    color: #f9f9f9;    
-}
 
 .footer__right {
     padding-top: 100px;
