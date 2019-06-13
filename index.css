@@ -7,7 +7,7 @@ body {
     justify-content: center;
 }
 .header {
-    background: url(/image/header-fon.png) no-repeat;
+    background: url(./image/header-fon.png) no-repeat;
 }
 .header__top {
     margin: 88px 233px 0px 210px;
@@ -35,7 +35,7 @@ body {
     grid-template-columns: 800px 800px;
 }
 .about__left {
-    background: url(/image/abou-left-photo.png) no-repeat;
+    background: url(./image/abou-left-photo.png) no-repeat;
 }
 .about__right {
     background-color: #f3f1ef;
