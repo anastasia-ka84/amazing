@@ -1,6 +1,5 @@
 /* font-family: 'Fira Sans', sans-serif; */
 body {
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1600px;
     grid-template-rows: 899px 500px 1030px 1415px 605px;
