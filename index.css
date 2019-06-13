@@ -1,0 +1,353 @@
+/* font-family: 'Fira Sans', sans-serif; */
+body {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1600px;
+    grid-template-rows: 899px 500px 1030px 1415px 605px;
+    justify-content: center;
+}
+.header {
+    background: url(/image/header-fon.png) no-repeat;
+}
+.header__top {
+    margin: 88px 233px 0px 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__bottom {
+    margin: 193px 0px 276px 210px;
+}
+.header__bottom_h {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 72px;
+    font-weight: 300;
+    margin-top: -24px;
+    margin-bottom: 23px;
+}
+.header__bottom_p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+.about {
+    display: grid;
+    grid-template-columns: 800px 800px;
+}
+.about__left {
+    background: url(/image/abou-left-photo.png) no-repeat;
+}
+.about__right {
+    background-color: #f3f1ef;
+    padding-left: 57px;
+    padding-top: 113px;
+    box-sizing: border-box;
+}
+.about__right_h {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #666666;
+    text-transform: uppercase;
+    margin-top: -24px;
+    margin-bottom: 39px;
+}
+.about__right_p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: #666666;
+    
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 515px 515px;
+    background-color: #3f729b;
+}
+.gallery__coordinate_grid {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-left: 209px;
+    padding-top: 124px;
+    padding-bottom: 117px;
+    box-sizing: border-box;
+}
+.gallery__picture_h {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9f9f9;
+    margin-bottom: -15px;
+}
+.gallery__picture_p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: #f9f9f9;
+}
+.gallery__picture_a {
+    width: 280px;
+    height: 56px;
+    padding: 20px 24px 18px 24px;
+    border: 2px solid #f9f9f9;
+    border-radius: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f9f9f9;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.gallery__picture_a:hover {
+    background-color: #204869;
+}
+.music {
+    display: grid;
+    grid-template-columns: 400px 400px 800px;
+    grid-template-rows: 500px 400px 515px;
+}
+.music__block_img {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.music__block_background-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #282b2f;
+    z-index: 1;
+}
+.music__block_video-title {
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #212227;
+    z-index: 1;
+    padding: 138px 0 0 58px;
+    box-sizing: border-box;
+}
+.music__block_video-title h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2ebd59;
+    text-transform: uppercase;
+    margin-bottom: -15px;
+}
+.music__block_video-title h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2ebd59;
+    text-transform: uppercase;
+}
+.music__block_video-title p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #f9f9f9;
+    margin-bottom: 45px;
+}
+.music__block_video-a {
+    width: 172px;
+    height: 45px;
+    
+    padding: 15px 16px 15px 16px;
+    border: 2px solid #2ebd59;
+    border-radius: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2ebd59;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+.music__block_video-title a:hover {
+    background-color: #204869;
+}
+.music__block_background-2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #282b2f;
+    z-index: 1;
+}
+.music__block_listen {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #2ebd59;
+    padding-left: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.music__block_download {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #282b2f;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.music__block_h {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9f9f9;
+}
+.music__block_p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: #f9f9f9;
+    margin-bottom: 55px;
+}
+.music__block_a {
+    width: 280px;
+    height: 56px;
+    padding: 0px 26px 0px 26px;
+    border: 2px solid #f9f9f9;
+    border-radius: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f9f9f9;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music__block_background-green:hover {
+    background-color: #287840;
+}
+.music__block_background-gray:hover {
+    background-color: #46484b;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 605px;
+    background-color: #212227;
+}
+.footer__left {
+    padding-top: 100px;
+    padding-left: 210px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.footer__left-blok1 h1,
+.footer__left-blok2 h1,
+.footer__left-blok3 h1,
+.footer__right-blok1 h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f9f9f9;
+}
+.footer__left-blok1 p,
+.footer__left-blok2 p,
+.footer__right-blok1 p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #919191;
+    line-height: 24px;
+}
+.footer__left-blok3 {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__left-blok3 a {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #919191;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+.footer__left-blok3 a:hover {
+    color: #f9f9f9;    
+}
+.footer__left-blok3 a img{
+    margin-right: 19px;
+}
+.footer__left-blok3 a img:hover {
+    border: 1px solid #f9f9f9;
+    color: #f9f9f9;    
+}
+
+.footer__right {
+    padding-top: 100px;
+    padding-left: 108px;
+}
+.footer__right-blok2{
+    width: 480px;
+    height: 60px;
+    background-color: #4d4e52;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .footer__right-blok2 form {
+    display: flex;
+    justify-content: space-between;
+
+    flex-grow: 1;
+    padding-left: 20px; 
+    padding-right: 19px;
+    box-sizing: border-box;
+}
+.footer__right-blok2 label {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #919191;
+    flex-grow: 1;
+}
+.footer__right-blok2 input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #919191;
+    caret-color: rgba(0,0,0,0);
+}
+.footer__right-blok2 input[autocomplete="on"] {
+    background: transparent;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.footer__right-blok2 button {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.footer__right-blok2 button:hover {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
